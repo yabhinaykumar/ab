@@ -1,0 +1,7 @@
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Our Very First Pipeline!
+          script:
+            - echo "Hello World!"
